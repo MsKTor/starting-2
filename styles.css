@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Sevillana&family=Source+Code+Pro&display=swap');
+
+*{
+    font-family: 'Roboto Mono';
+}
+
+nav{
+    width: 100%;
+    background-color:#160EAD;
+    height: 5em;
+    display: flex;
+    align-items: center;
+}
+
+
+ul li{
+    display: inline;
+    margin: 2rem;
+    font-family: 'Roboto Mono';
+    font-size: 1rem;
+    color:#FA6C17;
+}
+
+.opening{
+    position: relative;
+    display:flex;
+    width: 100%;
+    height: 2rem;
+    justify-content: center;
+    top: 5rem;
+
+}
+.elemlist{
+    position: relative;
+    top: 10rem;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.elem{
+    width: 20rem;
+    height: 20rem;
+    border: solid 0.2rem #FA6C17;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+.pic{
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 15rem;
+    justify-content: center;
+}
+
+.pic img{
+    border: solid 0.2rem #FA6C17
+}
+
+main{
+    width: 100%;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .elemList {
+      flex-wrap: wrap;
+    }
+    .elem{
+        font-size: 0.5rem;
+        width: 10rem;
+        height: 10rem;
+    }
+    .pic img{
+
+        width: 15rem;
+        height: 15rem
+
+    }
+  }
